@@ -24,9 +24,13 @@ namespace Statistics
              }
             else
             {
-                statistics.max = numbers.Max();
-                statistics.min = numbers.Min();
-                statistics.max = numbers.Average();
+                float max = numbers.Max();
+                float min = numbers.Min();
+                float average = numbers.Average();
+
+                statistics.max = max;
+                statistics.min = min;
+                statistics.average = average;
                 return statistics;
             }
         }
