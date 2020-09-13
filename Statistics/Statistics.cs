@@ -28,7 +28,6 @@ namespace Statistics
                 float max = numbers.Max();
                 float min = numbers.Min();
                 float average = numbers.Average();
-
                 statistics.max = max;
                 statistics.min = min;
                 statistics.average = average;
